@@ -30,8 +30,8 @@ Esta es una aplicación móvil desarrollada con [Expo](https://expo.dev) y React
 
 ## Demostración en video
 
-- [Video 1: Flujo de Onboarding](ENLACE_A_TU_VIDEO_1)
-- [Video 2: Interacción con los componentes](ENLACE_A_TU_VIDEO_2)
+- [Video 1: Onboarding pagination](https://drive.google.com/file/d/1dIiCzxBwQRV5l9TYJ72ucLEN1CngupqO/view?usp=sharing)
+- [Video 2: Onboarding carousel](https://drive.google.com/file/d/1w5jXS44IummB7ZeDi7y9e2fef0XOCn4I/view?usp=sharing)
 
 ## Estructura del proyecto
 
