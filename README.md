@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# Onboarding App 🚀
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Esta es una aplicación móvil desarrollada con [Expo](https://expo.dev) y React Native, que implementa un flujo de onboarding utilizando componentes personalizados.
 
-## Get started
+## Características
 
-1. Install dependencies
+- **Onboarding interactivo:** Presenta a los usuarios las principales funcionalidades de la app mediante pantallas de bienvenida.
+- **Componentes reutilizables:** Los componentes de onboarding están diseñados para ser fácilmente modificables y reutilizables.
+- **Soporte multiplataforma:** Funciona en Android, iOS y web.
+
+## Instalación
+
+1. Instala las dependencias:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Inicia la aplicación:
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Componentes principales
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- `OnboardingScreen`: Pantalla principal del onboarding.
+- `OnboardingStep`: Componente para cada paso del onboarding.
+- Otros componentes personalizados en la carpeta [`components/`](components/).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Demostración en video
 
-## Get a fresh project
+- [Video 1: Flujo de Onboarding](ENLACE_A_TU_VIDEO_1)
+- [Video 2: Interacción con los componentes](ENLACE_A_TU_VIDEO_2)
 
-When you're ready, run:
+## Estructura del proyecto
 
-```bash
-npm run reset-project
+```
+app/
+  _layout.tsx
+  index.tsx
+components/
+  OnboardingScreen.tsx
+  OnboardingStep.tsx
+assets/
+  images/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Personalización
 
-## Learn more
+Puedes modificar los textos, imágenes y pasos del onboarding editando los archivos en la carpeta [`components/`](components/).
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contribución
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes sugerencias, abre un issue o pull request.
 
-## Join the community
+## Licencia
 
-Join our community of developers creating universal apps.
+Este proyecto está bajo la licencia MIT.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+Desarrollado con ❤️ usando Expo y React Native.
